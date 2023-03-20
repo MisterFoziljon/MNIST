@@ -5,4 +5,4 @@
 
 ```MNIST``` ma'lumotlar bazasida 60 000 ta o'quv tasvir(```train data```)lari va 10 000 ta sinov tasvir(```test data```)lari mavjud. 
 
-![cmd](https://github.com/MisterFoziljon/MNIST-dataseti-yordamida-qo-lda-yozilgan-raqamlarni-bashorat-qilish/blob/main/rasmlar/mnist.png)
+![cmd](https://github.com/MisterFoziljon/MNIST-dataseti-yordamida-qo-lda-yozilgan-raqamlarni-bashorat-qilish/blob/main/rasmlar/mnist.jpg)
