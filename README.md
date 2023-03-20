@@ -22,7 +22,7 @@
         C:\> cd MNIST
 
 
-#### 2. Proyektni ishlatish uchun kerakli modullarni virtual environment yaratib o'rnatib oling.
+#### 3. Proyektni ishlatish uchun kerakli modullarni virtual environment yaratib o'rnatib oling.
 * O'zingizdagi pip ni so'nggi versiyasiga yangilang.
 
         C:\MNIST> python -m pip install --upgrade pip
@@ -42,3 +42,27 @@
 * Virtual environment ichiga loyiha ishlashi uchun kerakli bo'lgan modullarni o'rnating (requirements.txt faylining ichida barchasi mavjud).
         
         (sizning_env) C:\MNIST> pip install -r requirements.txt
+
+
+#### 4. Proyektni ishlatish uchun jupyter notebook ni ishga tushiring.
+
+        (sizning_env) C:\Boston> jupyter notebook
+        
+  * ```CNN yordamida model o'qitish.ipynb``` ni ishga tushiring. Usbu notebookda Keras.io saytidagi MNIST datasetini o'qib olish, uni train va test datalariga ajratish, datalarni size va shape larini train uchun moslash hamda normallashtirish ko'rsatilgan. Dataset yordamida Convolutional Neural Network ishlab chiqilgan va u yordamida model train va evaluate qilingan. Model h5 formatda saqlanadi. Ushbu notebookni birinchi bo'lib ishga tushirib ```modelni qayta o'qiting```!!! Chunki model githubga yuklanmadi.
+  
+  * ```Modelni sinovdan o'tkazish.ipynb``` ni ishga tushiring. Ushbu notebook yordamida saqlangan modelni load qilish va yangi test qilish datalari yordamida bashorat qilish (predict) ko'rsatib o'tilgan.
+
+
+#### 4. Proyektni streamlit yordamida deploy qilish.
+
+        (sizning_env) C:\MNIST> streamlit run streamlit.py
+
+  * Proyekt ```local server```da ishga tushadi va quyidagicha ko'rinishda bo'ladi:
+
+
+![streamlit1](https://github.com/MisterFoziljon/MNIST/blob/main/rasmlar/streamlit1.png)
+  
+  * Ekranni chap qismida qalam parametrlari keltirib o'tilgan. Parametrlarni o'zingizga mos holatda sozlashingiz mumkin. To'rtburchak ichiga biror raqamni yozib, ```Predict qilish``` tugmachasi bosilganda model yozilgan raqamni necha ekanligini bashorat qiladi. Bundan tashqari softmaxdan chiqqan ehtimollik natijasi ham ekranga chiqadi.
+
+
+![streamlit2](https://github.com/MisterFoziljon/MNIST/blob/main/rasmlar/streamlit3.jpg)
