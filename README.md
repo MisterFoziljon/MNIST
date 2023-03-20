@@ -65,4 +65,4 @@
   * Ekranni chap qismida qalam parametrlari keltirib o'tilgan. Parametrlarni o'zingizga mos holatda sozlashingiz mumkin. To'rtburchak ichiga biror raqamni yozib, ```Predict qilish``` tugmachasi bosilganda model yozilgan raqamni necha ekanligini bashorat qiladi. Bundan tashqari softmaxdan chiqqan ehtimollik natijasi ham ekranga chiqadi.
 
 
-![streamlit2](https://github.com/MisterFoziljon/MNIST/blob/main/rasmlar/streamlit3.png)
+![streamlit3](https://github.com/MisterFoziljon/MNIST/blob/main/rasmlar/streamlit3.png)
