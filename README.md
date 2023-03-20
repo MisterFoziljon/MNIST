@@ -20,3 +20,25 @@
   * Loyiha joylashgan faylga kiring.
          
         C:\> cd MNIST
+
+
+#### 2. Proyektni ishlatish uchun kerakli modullarni virtual environment yaratib o'rnatib oling.
+* O'zingizdagi pip ni so'nggi versiyasiga yangilang.
+
+        C:\MNIST> python -m pip install --upgrade pip
+        
+* virtual environment yaratish uchun virtualenv modulini o'rnating.
+        
+        C:\MNIST> python -m pip install --user virtualenv
+
+* Yangi environment yaratish uchun unga nom bering.
+        
+        C:\MNIST> python -m venv sizning_env
+        
+* Virtual environmentni ishga tushiring(aktivlashtiring).
+        
+        C:\MNIST> sizning_env\Scripts\activate.bat
+        
+* Virtual environment ichiga loyiha ishlashi uchun kerakli bo'lgan modullarni o'rnating (requirements.txt faylining ichida barchasi mavjud).
+        
+        (sizning_env) C:\MNIST> pip install -r requirements.txt
